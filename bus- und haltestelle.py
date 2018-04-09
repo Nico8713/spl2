@@ -12,4 +12,11 @@ for p in range(0, int(z)):
         print("Es sind zu viele leute im bus!!")
         r = k - 60
         print("ES müssen", r,"leute aussteigen")
+    if (k <= 0):
+        print("es sind zu wenig leute im bus")
+        t = 0 - k
+        u = input("Wie viele leute steigen ein?")
+        a = input("Wie viele leute steigen aus?")
+        k = k +int(u)
+        k = k -int(a)
 print(k)
