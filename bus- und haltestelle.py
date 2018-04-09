@@ -10,4 +10,6 @@ for p in range(0, int(z)):
     print("es sind", k," leute im bus")
     if(k > 60):
         print("Es sind zu viele leute im bus!!")
+        r = k - 60
+        print("ES müssen", r,"leute aussteigen")
 print(k)
